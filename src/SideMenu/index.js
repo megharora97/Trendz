@@ -32,7 +32,7 @@ export class SideMenu extends React.Component {
     logout = async () => {
         AsyncStorage.clear()
         this.props.navigation.navigate('LoginStackScreen')
-           
+
     }
 
 

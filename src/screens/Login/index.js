@@ -101,7 +101,6 @@ class Login extends React.Component {
                 Match.map((item, index) => {
                     if (item.email === email && item.Password === Password) {
                         this.props.navigation.navigate("Drawer")
-
                     }
                     else {
                         alert('Invalid Credentials')
